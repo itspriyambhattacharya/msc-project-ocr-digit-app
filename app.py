@@ -5,7 +5,7 @@ import tensorflow as tf
 from PIL import Image
 
 # Load the trained model
-model = tf.keras.models.load_model("app.keras")
+model = tf.keras.models.load_model("model/app.keras")
 
 st.title("OCR Digit Recognition App")
 st.write("Upload an image containing a single handwritten digit (0–9).")
